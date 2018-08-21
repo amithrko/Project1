@@ -1,0 +1,326 @@
+	
+		
+	body{	
+		background-color: #047a1c;	
+		min-width: 320px;
+		width: auto;
+		height:100%;
+		
+	}
+
+	h1{
+		font-family: 'Archivo Narrow', sans-serif;
+		display: flex;
+		justify-content: flex-end;
+		color: white;			
+	}
+		  
+	#pp11{
+		text-align: right;
+		font-family: 'Poiret One', cursive;	
+		display: flex;
+		justify-content: flex-end;
+		position: relative;
+		bottom: 20px;
+		font-size: 25px;
+		color: white;
+	}
+		 		  
+	.b1{
+		position: relative;
+		top: 60px; 
+		border: 1px solid;
+		border-color: white; 	
+	}
+			 
+	.b1111{		
+		position: relative;
+		top: 25px;	
+		border: 1px solid;
+		border-color: white;
+		display: flex;
+		flex-wrap: wrap;
+	}		
+	.i1100{
+		width: 100%;
+		height: auto;
+		position: relative;
+		top: 10px;		
+	}
+				
+	.hh{		
+		width: 400px;
+		float: right;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		position: relative;
+		bottom: 25px;						
+	}
+	
+	
+			
+	.im{
+		width: 100px;
+		height: 100px;
+		position: relative;
+		top: 1px;
+		display: flex;
+		justify-content: flex-start;
+		border-radius: 50px;
+	}
+			
+	#u1100{  
+		margin-top: 5px;		
+	}
+	
+	figcaption{	
+		text-align: center;
+		color: white;
+	}
+	
+	.pp1100{
+		text-align: left;
+		position: relative;
+		top: 1px;
+		margin-left: 12%;
+		font-size: 80px;
+		font-family: 'Reem Kufi', sans-serif;
+		color: white;	
+	}
+		
+	a{
+		color: #00ffff;	
+	}
+		
+	*{
+		box-sizing: border-box;
+	}
+
+	.row{	
+		position: relative;
+		top: 1px;		
+	}
+					
+	.column{
+		float: left;
+		width:20.33%;
+		margin-left: 10%;
+	}
+		
+	.row::after{
+		contain: "";
+		clear: both;
+		display: table;		
+	}
+		
+	#c1{
+		border: 1px solid;
+		border-radius: 4px;
+			
+		width:100%;
+	}
+			  
+	#c2{
+		border: 1px solid;
+		border-radius: 4px;
+			
+		width:100%;
+	}
+			
+	#cc11{
+		border: 1px solid;
+		height: 134px;
+		border-radius:4px;
+		width: 100%;	
+	}
+	
+	footer{
+		text-align: center;
+		font-size: 40px;
+		position: relative;
+		top: 20px;
+		color: white;
+		position: relative;
+		right: 14%;	
+	}
+					 
+	@media screen and (max-width: 1024px) {
+			  			
+			#cc11{
+				height: 88px;
+			}	
+			
+			.im{
+				position: relative;
+				left: 4%;
+			}
+					
+			.hh{
+				width: 60%;
+				height: 20%;
+				margin-top: 25px;
+				color: white;  
+				position: relative;
+				right: 4%;	
+			}
+				 
+			.pp1100{
+			   text-align: center;
+			   position: relative;
+			   top: 1px;
+			   font-size: 80px;
+			   font-family: 'Reem Kufi', sans-serif;				
+			   color: white;
+			}
+			
+			.row{
+				position: relative;
+				top: 1px;
+			}
+			
+			footer{
+				text-align: center;
+				font-size: 40px;
+				position: relative;
+				top: 20px;
+				color: white;
+				position: relative;
+				right: 16%;
+			}	
+		}  	 
+			 
+	@media screen and (max-width: 800px) {
+		
+			#pp11{
+				text-align: right;
+				font-family: 'Poiret One', cursive;
+				font-size: 20px;
+				color: white;
+		    }
+		 
+			footer{  
+				text-align: center;
+				font-size: 40px;
+				position: relative;
+				top: 20px;
+				color: white;
+				position: relative;
+				right: 1%;
+				left: 1%;	
+			}
+	
+			.hh{
+				width: 60%;
+				height: 20%;
+				margin-top: 25px;
+				color: white;
+				position: relative;
+				right: 4%;
+				display: flex;
+				justify-content: flex-end;
+
+			}
+			
+			.im{
+				position: relative;
+				left: 4%;				
+			}
+						
+			#cc11{
+				height: 450px;
+			}
+			
+			.column{
+			    display: flex;
+				flex-direction: coloumn;
+				justify-content: flex-start;
+			    width: 100%;
+				margin-bottom:5%;	
+				position: relative;
+				right: 10%;
+				
+			}	
+		}
+			  		
+	@media screen and (max-width: 414px) {
+		
+			h1{ 
+				text-align: right;
+				font-family: 'Archivo Narrow', sans-serif;
+				font-size: 25px; 
+				color: white;
+		    }
+		
+			.hh{	  
+				width: 60%;
+				height: 20%;
+				margin-top: 25px;
+				color: white;  
+				display: flex;
+				justify-content: flex-end;
+
+			}
+			
+			#cc11{
+				height: 220px;
+			}
+		}
+		
+		
+	@media screen and (max-width: 375px) {
+		  
+			.column{
+				display: flex;
+				justify-content: flex-start;
+				
+				width: 375px;
+			}			
+		}
+		
+	@media screen and (max-width: 360px) {
+		
+			.column{
+				display: flex;
+				justify-content: flex-start; 
+				
+				min-width:220px;
+				
+				width: 360px; 
+				
+				
+			}
+		}
+		
+	@media screen and (max-width: 320px){
+		
+			h1{
+				text-align: right;
+				font-family: 'Archivo Narrow', sans-serif;
+				font-size: 25px; 
+				color: white
+							
+			}
+			
+			.column{
+				display: flex;
+				justify-content: flex-start;
+				
+				width:320px;	  
+			}	
+		
+			.pp1100{
+				text-align: center;
+				position: relative;
+				top: 1px;
+				font-size: 60px;
+				font-family: 'Reem Kufi', sans-serif;	
+				color: white;
+			}
+				
+			#cc11{
+				border: solid;
+				height: 164px;
+			}
+				
+		}	
